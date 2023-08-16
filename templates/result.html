@@ -17,7 +17,7 @@
       <div class="container">
         <div id="brandname">
           <h1 style="color: black">
-          Credit Card Fraud Detection Results
+          Secure Transact Results
           </h1>
         </div>
         <!-- <h2><p style="text-align: center">Detection</p></h2> -->
@@ -29,11 +29,11 @@
     <div class="results">
       {% if prediction == 0 %}
       <h1 style="color: green">
-          According to our model, the provided transaction is NOT a Fraud transaction.
+          The provided transaction is NOT a Fraud transaction.
       </h1>
       {% elif prediction == 1 %}
       <h2 style="color: red">
-          According to our model, this transaction is a Fraud transaction.
+          This transaction is a Fraud transaction.
       </h2>
       {% endif %}
     </div>
